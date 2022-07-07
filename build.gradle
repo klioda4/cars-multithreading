@@ -18,3 +18,7 @@ dependencies {
 application {
     mainClassName = "ru.clevertec.kli.carsmultithreading.RaceRunner"
 }
+
+run {
+    standardInput = System.in
+}
